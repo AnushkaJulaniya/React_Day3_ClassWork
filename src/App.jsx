@@ -8,7 +8,7 @@ import { RiBasketballLine } from "react-icons/ri";
 const App=()=>{
  return (
 <div className="fullpage">
-<img id = "bg-img" src="/images/bg-img.png" alt="" />
+
 
     <nav>
         <div className="logo">
@@ -24,6 +24,8 @@ const App=()=>{
         </ul>
         <button id="start-btn">Get Started</button>
     </nav>
+    <img id = "bg-img" src="/images/bg-img.png" alt="" />
+    
     <div className="upper-div">
         <h1 id="upper-heading">Let us find your <span>Forever Food.</span></h1>
         <p id="upper-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim ea aperiam cupiditate. Officiis, cupiditate quia.</p>
